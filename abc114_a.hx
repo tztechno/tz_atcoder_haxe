@@ -8,22 +8,22 @@ abc114_a.hx
 ##########################################
 using Std;
 class Main {
-	static public function main(){
-    	var inputs = Sys.stdin();
-      var x = inputs.readLine().parseInt();
-      if (x==7||x==5||x==3) {
+    static public function main(){
+    var inputs = Sys.stdin();
+    var x = inputs.readLine().parseInt();
+    if (x==7||x==5||x==3) {
         Sys.print('YES');            
       }
-      else{
+     else{
         Sys.print('NO');            
       }
     }
-}
+  }
 ##########################################
 using Std;
 class Main {
-	static public function main(){
-    	var inputs = Sys.stdin();
+      static public function main(){
+      var inputs = Sys.stdin();
       var x = inputs.readLine().parseInt();
       if ((x-7)*(x-5)*(x-3)==0) {
         Sys.print('YES');            
@@ -32,7 +32,7 @@ class Main {
         Sys.print('NO');            
       }
     }
-}
+  }
 ##########################################
 [python]
 X=int(input())
